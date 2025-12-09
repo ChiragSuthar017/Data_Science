@@ -26,16 +26,16 @@ print(arr1)
 # Read excel file using pandas
 print("\n Read excel file using panads")
 print(".xlsx file")
-c = pd.read_excel(r"D:\Data Science\Data_Science\Panads\data.xlsx")
+c = pd.read_excel(r"D:\Data_Science\Panads\data.xlsx")
 print(c)
 
 print("\n .csv file")
-d = pd.read_csv(r"D:\Data Science\Data_Science\Panads\data.csv")
+d = pd.read_csv(r"D:\Data_Science\Panads\data.csv")
 print(d)
 
 # Read json file using pandas
 print("\n Read json file ")
-e = pd.read_json(r"D:\Data Science\Data_Science\Panads\data.json")
+e = pd.read_json(r"D:\Data_Science\Panads\data.json")
 print(e)
 
 # Read csv file using url 

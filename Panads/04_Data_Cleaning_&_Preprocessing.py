@@ -1,6 +1,6 @@
 import pandas as pd
 # import csv file as data
-data = pd.read_csv(r"D:\Data Science\Data_Science\Panads\data_cleaning_sample.csv")
+data = pd.read_csv(r"D:\Data_Science\Panads\data_cleaning_sample.csv")
 print(data)
 
 # Handling Missing values

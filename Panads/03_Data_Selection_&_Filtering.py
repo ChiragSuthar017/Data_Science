@@ -1,7 +1,7 @@
 import pandas as pd
 
 # import csv file 
-data = pd.read_csv(r"D:\Data Science\Data_Science\Panads\data1.csv")
+data = pd.read_csv(r"D:\Data_Science\Panads\data1.csv")
 print(data)
 
 # selecting columns
