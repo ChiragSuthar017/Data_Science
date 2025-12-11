@@ -1,10 +1,11 @@
 [
 {
     "name": "chirag",
-    "lang": "python"
+    "language": {"basic" : "python" , "not basic" : "css"}
 },
 {
     "name": "bhavy",
-    "lang": "c++"
+     "language": {"basic" : "c" , "not basic" : "c++"}
+
 }
 ]
