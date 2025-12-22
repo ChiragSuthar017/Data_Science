@@ -80,3 +80,28 @@ plt.show()
 # Cluttered and confusing
 # No clear insight
 # Better alternatives: bar charts or horizontal bar chart
+
+# Assingment
+
+# Create a pie chart showing the market share of mobile OS (Android, iOS, others)
+
+mobiles = ["Android", "Ios", "Others"]
+market_share = [3755, 1375, 55]
+
+plt.pie(
+    market_share,
+    labels=mobiles,
+    autopct='%1.1f%%',
+    shadow=True
+)
+plt.title("market holder")
+plt.show()
+
+# hen recreate the same using a horizontal bar chart and observe which is easier to understand.
+plt.bar(mobiles, market_share)
+plt.xlabel("mobiles")
+plt.ylabel("market share")
+plt.title("market holder")
+for  i in range(len(mobiles)):
+    plt.text(i, market_share[i]+30, str(market_share[i]), ha='center')
+plt.show()
