@@ -19,4 +19,4 @@ for article in articles:
 df = pd.DataFrame(items, columns=['books name', 'price', 'rating'])
 print(df)
 
-df.to_csv("data.csv",index=False)
+df.to_csv("data.csv",index=False) 
