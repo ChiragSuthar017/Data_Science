@@ -1,0 +1,67 @@
+-- CREATE DATABASE emp;
+-- USE emp;
+
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    address VARCHAR(100),
+    department VARCHAR(50),
+    salary INT,
+    join_date DATE
+);
+
+INSERT INTO employees (id, first_name, last_name, address, department, salary, join_date)
+VALUES
+(1, 'Rahul', 'Sharma', 'Delhi', 'HR', 50000, '2023-01-15'),
+(2, 'Priya', 'Verma', 'Mumbai', 'IT', 60000, '2022-11-20'),
+(3, 'Amit', 'Patel', 'Ahmedabad', 'Finance', 55000, '2023-03-10'),
+(4, 'Neha', 'Gupta', 'Jaipur', 'IT', 65000, '2021-09-05'),
+(5, 'Arjun', 'Singh', 'Chandigarh', 'Sales', 70000, '2022-06-18'),
+(6, 'Kiran', 'Yadav', 'Lucknow', 'HR', 48000, '2023-02-12'),
+(7, 'Sneha', 'Reddy', 'Hyderabad', 'IT', 72000, '2021-12-01'),
+(8, 'Vikas', 'Mehta', 'Pune', 'Finance', 53000, '2022-08-25'),
+(9, 'Pooja', 'Shah', 'Surat', 'Sales', 58000, '2023-04-05'),
+(10, 'Rohit', 'Kumar', 'Patna', 'IT', 61000, '2022-10-30'),
+(11, 'Anjali', 'Mishra', 'Bhopal', 'HR', 47000, '2023-01-22'),
+(12, 'Suresh', 'Nair', 'Kochi', 'Finance', 66000, '2021-07-19'),
+(13, 'Meena', 'Iyer', 'Chennai', 'IT', 75000, '2022-03-14'),
+(14, 'Deepak', 'Joshi', 'Dehradun', 'Sales', 52000, '2023-05-09'),
+(15, 'Ritu', 'Agarwal', 'Kolkata', 'HR', 49000, '2022-09-11'),
+(16, 'Manish', 'Tiwari', 'Kanpur', 'Finance', 57000, '2023-06-01'),
+(17, 'Kavita', 'Das', 'Bhubaneswar', 'IT', 68000, '2021-11-23'),
+(18, 'Nitin', 'Chopra', 'Amritsar', 'Sales', 62000, '2022-04-17'),
+(19, 'Simran', 'Kaur', 'Ludhiana', 'HR', 51000, '2023-02-28'),
+(20, 'Akash', 'Jain', 'Indore', 'Finance', 64000, '2021-08-06'),
+(21, 'Tarun', 'Malhotra', 'Delhi', 'IT', 67000, '2022-02-11'),
+(22, 'Divya', 'Kapoor', 'Mumbai', 'HR', 52000, '2023-03-15'),
+(23, 'Rakesh', 'Yadav', 'Lucknow', 'Sales', 56000, '2021-10-20'),
+(24, 'Shalini', 'Pandey', 'Varanasi', 'Finance', 59000, '2022-12-05'),
+(25, 'Gaurav', 'Bansal', 'Jaipur', 'IT', 71000, '2023-01-01'),
+(26, 'Nisha', 'Saxena', 'Noida', 'HR', 48000, '2022-07-22'),
+(27, 'Abhishek', 'Dubey', 'Kanpur', 'Finance', 60000, '2021-06-18'),
+(28, 'Komal', 'Arora', 'Chandigarh', 'Sales', 57000, '2023-04-09'),
+(29, 'Yogesh', 'Chaudhary', 'Gurgaon', 'IT', 73000, '2022-09-30'),
+(30, 'Rekha', 'Bose', 'Kolkata', 'HR', 50000, '2021-11-11'),
+(31, 'Sunil', 'Dutt', 'Delhi', 'Finance', 65000, '2022-05-14'),
+(32, 'Pallavi', 'Jain', 'Indore', 'IT', 72000, '2023-06-20'),
+(33, 'Mohit', 'Aggarwal', 'Panipat', 'Sales', 54000, '2021-08-08'),
+(34, 'Sakshi', 'Goyal', 'Rohtak', 'HR', 51000, '2022-10-19'),
+(35, 'Naveen', 'Rana', 'Shimla', 'Finance', 63000, '2023-02-02'),
+(36, 'Ishita', 'Sen', 'Kolkata', 'IT', 76000, '2021-12-25'),
+(37, 'Kunal', 'Thakur', 'Manali', 'Sales', 58000, '2022-03-30'),
+(38, 'Preeti', 'Chauhan', 'Dehradun', 'HR', 49000, '2023-05-17'),
+(39, 'Raj', 'Soni', 'Udaipur', 'Finance', 61000, '2021-07-07'),
+(40, 'Aarti', 'Kulkarni', 'Nagpur', 'IT', 74000, '2022-11-03'),
+(41, 'Hemant', 'Verma', 'Bhopal', 'Sales', 55000, '2023-01-25'),
+(42, 'Neelam', 'Joshi', 'Ajmer', 'HR', 47000, '2021-09-29'),
+(43, 'Ankit', 'Sinha', 'Ranchi', 'Finance', 62000, '2022-04-13'),
+(44, 'Swati', 'Nanda', 'Bhubaneswar', 'IT', 70000, '2023-03-08'),
+(45, 'Dinesh', 'Rawat', 'Haridwar', 'Sales', 53000, '2021-06-21'),
+(46, 'Rina', 'Paul', 'Kolkata', 'HR', 52000, '2022-08-16'),
+(47, 'Vivek', 'Pillai', 'Trivandrum', 'Finance', 68000, '2023-02-27'),
+(48, 'Tanya', 'Mehra', 'Delhi', 'IT', 75000, '2021-10-10'),
+(49, 'Ajay', 'Desai', 'Surat', 'Sales', 56000, '2022-12-12'),
+(50, 'Shreya', 'Banerjee', 'Kolkata', 'HR', 53000, '2023-04-18');
+
+SELECT * FROM employees;

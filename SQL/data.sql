@@ -1,7 +1,7 @@
 -- Drop and create the database
-DROP DATABASE IF EXISTS harryjoins;
-CREATE DATABASE harryjoins;
-USE harryjoins;
+DROP DATABASE IF EXISTS chiragjoins;
+CREATE DATABASE chiragjoins;
+USE chiragjoins;
 
 -- Create students table
 CREATE TABLE students (
