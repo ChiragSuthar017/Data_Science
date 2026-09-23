@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jinja2 page</title>
+    </head>
+    <body>
+        Hay i am {{name}} and i am using jinja2.
+        <p>My Primary language is {{lang}}</p>
+
+        {% for item in lucky %}
+            <p>{{item}}</p>
+        {% endfor %}
+        {{footer | safe}}
+    </body>
+</html>
